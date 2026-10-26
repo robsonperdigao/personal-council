@@ -12,5 +12,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Validate Markdown skill metadata
+      - name: Validate Markdown and skill contracts
         run: python scripts/validate.py
+      - name: Test advisor profile contracts
+        run: python -m unittest discover -s tests -v
