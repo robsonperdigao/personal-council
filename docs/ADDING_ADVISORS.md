@@ -23,3 +23,9 @@ Historical views require source notes; if not verified, say so. Fictional perspe
 - Clear mandate and boundaries.
 - No sensitive information in public files.
 - User approved changing the seat.
+
+## Personality design workflow (M2)
+
+Use advisor-architect before installing a new public profile. The [advisor personality guide](ADVISOR_DESIGN.md) defines the required sections: source-backed principles, a distinct decision method, communication, dissent, signature questions, illustrative examples and limits.
+
+Before changing a seat, show the proposed Markdown profile and mapping, request approval, and preserve previous advisor IDs in decision records. Compare different advisors against a shared fictional dilemma rather than assuming a famous name guarantees a new perspective.
