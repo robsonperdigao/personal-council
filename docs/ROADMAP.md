@@ -1,29 +1,26 @@
 # Roadmap
 
-## M1 — Foundation (current PR)
-- [x] Architecture and constitution
-- [x] Secretary-General instructions
-- [x] Stable advisor/seat format and two example advisors
-- [x] Four Agent Skills
-- [x] Markdown-only private workspace templates and privacy defaults
-- [x] Static validator
+## M1 — Foundation (PR #1)
+- [x] Constitution, architecture and Secretary-General
+- [x] Four core Skills and Markdown-only memory templates
+- [x] Public catalog and repository validation
 
-## M2 — Advisor experience
-- [ ] Validate advisor/seat IDs end to end
-- [ ] Expand sourced advisor catalog across domains
-- [ ] Guided add/replace/guest flows and examples
-- [ ] User acceptance tests for fictional and personal advisors
+## M2 — Distinct advisor personalities (branch based on M1)
+- [x] Rich personality, communication, reasoning and provenance contract
+- [x] Marcus Aurelius, Peter Drucker and Daniel Kahneman profiles
+- [x] Advisor-architect Skill and add-advisor handoff
+- [x] Council-session instructions for substantive differences
+- [x] Static contracts and manual fictional evaluation scenarios
+- [ ] Manual live-model comparison with multiple advisors
+- [ ] End-to-end private council seat replacement test
+- [ ] Further sourced advisor profiles and linguistic review
 
 ## M3 — Memory and deliberation
-- [ ] Exercise cross-domain linking against realistic fictional scenarios
-- [ ] Decision revisions and review workflow tests
-- [ ] Explicit privacy controls for domain-to-domain disclosure
-- [ ] Validate council quality and reduce flattery/false consensus
+- [ ] Cross-domain decisions and privacy boundaries
+- [ ] Decision revision and feedback tests
 
 ## M4 — Distribution
-- [ ] Codex-specific subagent adapter where appropriate
-- [ ] Claude Code and ChatGPT installation guides as supported
-- [ ] Optional Obsidian/Notion integration, without replacing Markdown as truth
-- [ ] Language/localization and packaging
+- [ ] Platform-specific adapters with verified compatibility
+- [ ] Optional Obsidian and Notion integration; Markdown remains canonical
 
-Not an automatic promise of model portability: each adapter must be tested in its target runtime.
+Static tests do not demonstrate successful AI persona execution.
