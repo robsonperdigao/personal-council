@@ -105,3 +105,15 @@ M3: robust retrieval, cross-domain reviews, reproducible decision audits.
 M4: adapters, usability tests and opt-in integrations.
 
 Success means a new user can clone, initialize a private council, swap an advisor, deliberate, and save/review a decision with only Markdown and a capable AI agent.
+
+## 12. Advisor personality contract (M2)
+
+A public advisor is a single Markdown profile under advisors/historical/ (with future fictional and original catalogs). It contains: mandate; source-backed principles; personality and communication; an ordered reasoning method; signature questions; dissent and blind spots; source notes; illustrative examples; limits. See [advisor design](docs/ADVISOR_DESIGN.md).
+
+Advisor-architect prepares a distinct profile and add-advisor proposes its assignment to a seat. Existing user-selected seats and historical decision records are never silently rewritten.
+
+Each selected advisor receives the SAME confirmed facts. Difference in catchphrases does not count as a distinct intellectual contribution. Contrast methods and disagreements; preserve uncertainty.
+
+Historical advisors are interpretive simulations, not literal people. Personal/deceased loved-one profiles remain private and prioritize actual teachings over imitation. One model simulating three roles must not be described as three independently executed agents.
+
+Static schema tests confirm file structure only; manual cases evaluate actual advisory usefulness. No knowledge database, vendor dependency or model fine-tuning is needed.
