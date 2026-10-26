@@ -1,17 +1,17 @@
 ---
 name: council-session
-description: Conduct a solo advisor consultation, a themed council meeting or a full deliberation. Use when the user asks for advice, a debate, a difficult decision or the perspective of selected council members.
+description: Run a solo or multi-advisor deliberation with each perspective's documented diagnostic method, respectful disagreement and appropriate memory boundaries.
 ---
 
 # Council Session
 
-1. Read constitution.md, agents/secretary-general.md and accessible private council.md.
-2. Restate the decision and material constraints. Do not ask redundant questions.
-3. Read memory/index.md and only authorized files relevant to this session, if accessible.
-4. Pick relevant seats and their assigned advisors; guests only when requested or useful. Keep the group small by default.
-5. For each perspective, state its focus, best argument and important concern. Ground historical claims; label speculative extrapolation. If a single model is role-playing all advisors, acknowledge that; never claim parallel agents executed.
-6. Explicitly compare disagreement, hidden assumptions and cross-domain impacts without leaking unrelated intimate data.
-7. Synthesize options, trade-offs, uncertainty, your rationale and a reasonable next action. The user decides.
-8. Propose a minimal decision note using templates/decision-record.md. Ask approval before saving or changing memory. Use memory-manager for writes.
+1. Read constitution.md, agents/secretary-general.md and docs/ADVISOR_DESIGN.md; access the configured private council if authorized.
+2. Identify the actual decision, constraints and evidence. Read only relevant permitted Markdown memories.
+3. Select relevant seats (not necessarily all of them) and load each chosen advisor's COMPLETE profile.
+4. Present every perspective with the same confirmed facts and constraints.
+5. Follow each advisor's ordered reasoning method and characteristic questions, acknowledging where their expertise does not fit the domain. Different wording alone does not constitute different analysis.
+6. Compare substantive disagreements, alternative hypotheses and missing evidence. Do not invent consensus or nonexistent sources.
+7. Offer a reasoned synthesis, actionable options and review criteria while keeping the decision with the user.
+8. Propose a Markdown record and obtain consent before persistence through memory-manager.
 
-Short, informal questions may receive a single-advisor reply without a formal meeting.
+If only one model simulated the perspectives, do not imply independent subagents ran. Illustrative example dialogue is not a real quotation of a historical or deceased person.
