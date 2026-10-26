@@ -22,3 +22,7 @@ Obsidian reads Markdown directly. Notion is optional and not automatically synch
 
 ## Limitations
 There is no always-on assistant or automatic background reminder. A ChatGPT chat without repository file access cannot read/write private notes merely because this repo exists. No native adapters for every agent platform have shipped yet; use AGENTS.md and skills as portable instructions where supported.
+
+## Customize advisor personalities
+
+To create a substantive perspective, ask to use advisor-architect, then use add-advisor to assign it to a seat. Compare their different reasoning methods using the [manual evaluation cases](../tests/scenarios.md). Choosing a personality never requires Obsidian or Notion.
