@@ -17,8 +17,8 @@ An open-source, Markdown-first framework for a personal advisory council powered
 
 1. Clone this repository and open it in an AI coding/agent workspace that can read and write Markdown.
 2. Create your private workspace from templates/private/:
-   - macOS/Linux: ~~~cp -R templates/private .private~~~
-   - PowerShell: ~~~Copy-Item -Recurse templates/private .private~~~
+   - macOS/Linux: `cp -R templates/private .private`
+   - PowerShell: `Copy-Item -Recurse templates/private .private`
 3. Open .private/council.md to choose seats and advisor IDs. Customize .private/profile.md and .private/memory/values.md only as much as you want.
 4. Ask the agent: **"Use council-builder to set up my council"** or **"Use council-session to debate my decision about ..."**
 5. Review suggested memory updates before allowing them to be written.
@@ -46,6 +46,6 @@ This is a **public** repository. The .gitignore excludes .private/, my-council/ 
 
 ## Development
 
-Run ~~~python scripts/validate.py~~~ to check repository conventions. The roadmap is in [docs/ROADMAP.md](docs/ROADMAP.md). Contributions and constructive dissent welcome.
+Run `python scripts/validate.py` to check repository conventions. The roadmap is in [docs/ROADMAP.md](docs/ROADMAP.md). Contributions and constructive dissent welcome.
 
 MIT licensed. Advisors are interpretive tools and are not substitutes for qualified medical, legal, mental-health or financial professionals.
