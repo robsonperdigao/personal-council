@@ -49,3 +49,11 @@ This is a **public** repository. The .gitignore excludes .private/, my-council/ 
 Run `python scripts/validate.py` to check repository conventions. The roadmap is in [docs/ROADMAP.md](docs/ROADMAP.md). Contributions and constructive dissent welcome.
 
 MIT licensed. Advisors are interpretive tools and are not substitutes for qualified medical, legal, mental-health or financial professionals.
+
+## Advisor personalities (M2)
+
+The starter catalog now includes Marcus Aurelius, Peter Drucker and Daniel Kahneman, each with an explicit reasoning method, communication style, characteristic objections and **clearly simulated** examples. See [advisor design](docs/ADVISOR_DESIGN.md).
+
+Use the **advisor-architect** Skill to draft and check a distinct personality, then **add-advisor** to place it in a seat. For behavioral testing, use [fictional evaluation scenarios](tests/scenarios.md). Profiles are Markdown, not necessarily independent running AI agents.
+
+M2 validation: run Python with scripts/validate.py and the built-in unittest discovery in tests/.
