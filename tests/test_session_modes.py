@@ -56,7 +56,7 @@ class SessionModeContracts(unittest.TestCase):
         ):
             self.assertIn(name, SCENARIOS)
         self.assertIn("do NOT prescribe rounds", SCENARIOS)
-        self.assertIn("Do not mark a case as passed", SCENARIOS)
+        self.assertIn("do not mark a case as passed", SCENARIOS)
         self.assertIn("Static CI tests", DESIGN)
 
 
