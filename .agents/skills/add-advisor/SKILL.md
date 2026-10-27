@@ -1,18 +1,18 @@
 ---
 name: add-advisor
-description: Create, review, add or replace a council advisor or seat. Use when the user asks to select a historical, fictional, personal or original advisor, add a chair, or customize a personality.
+description: Add, assign, replace, or invite an advisor to a council seat, using advisor-architect to create or improve a personality profile when needed.
 ---
 
 # Add Advisor
 
-1. Read constitution.md and docs/ADDING_ADVISORS.md.
-2. Distinguish creating a seat from installing or assigning an advisor. Check existing IDs and current assignments.
-3. Classify the requested advisor as historical, fictional, personal or original. Keep personal advisors in the private workspace.
-4. Use advisors/templates/advisor-template.md as a structural contract.
-5. For historical advisors, identify genuine intellectual themes and record source notes. Do not invent quotations or biographies. For fictional advisors, label interpretation versus canon.
-6. For personal advisors, start with values/teachings and memories supplied by the user. Separate known recollections from inference. Never pretend to be a deceased person.
-7. Propose a Markdown advisor profile, stable slug and suggested seat; ask the user to approve the profile and assignment before changing their private council.
-8. Preserve existing decision history when changing the assignment. Never rewrite previous advisor IDs.
-9. Explain how to replace, deactivate or invite the advisor as a guest.
+1. Read constitution.md, docs/ADDING_ADVISORS.md, and the actual authorized council configuration.
+2. Separate a **seat** (a role) from an **advisor** (a reusable historical, fictional, personal, or original perspective).
+3. Check whether the requested advisor already exists. If so, show its mandate and limitations without duplicating it.
+4. If absent or too generic, follow the advisor-architect skill to prepare a sourced, differentiated profile and an illustrative response.
+5. Show the profile and the precise proposed change to the seat assignment. Require approval before modifying a user's personal workspace.
+6. Store general public profiles in the public catalog only if devoid of private data; store personal profiles exclusively in a private authorized workspace.
+7. A guest can join one session without changing the permanent seat.
+8. Preserve participant IDs in historical decision records when replacing a permanent advisor.
+9. Run static checks if accessible and report their actual status.
 
-If external research is unavailable, note unverified source details explicitly.
+Personal profiles should emphasize teachings and values. A conversational simulation of a deceased person must never masquerade as real contact.

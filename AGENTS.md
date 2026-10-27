@@ -25,3 +25,9 @@ Follow [constitution.md](constitution.md), [ARCHITECTURE.md](ARCHITECTURE.md) an
 - Respect boundaries for highly sensitive subject areas and avoid unsolicited cross-domain disclosure.
 - Deliberately seek dissent and uncertainty; do not fabricate votes or assert that separate agents ran unless they did.
 - The user owns the final decision. Never claim to speak as a deceased person, or invent their memories.
+
+## Advisor profiles (M2)
+
+When adding or changing an advisor, use advisor-architect and docs/ADVISOR_DESIGN.md. Load the full profile for a council meeting and give all selected perspectives the same facts and constraints. Distinguish method-level difference from tone and never fabricate quotes, probabilities or historical viewpoints.
+
+Run scripts/validate.py and the unittest suite in tests/ when validating repository changes. Static success does not establish that a model followed the personas correctly.
