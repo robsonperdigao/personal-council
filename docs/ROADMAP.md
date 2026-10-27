@@ -24,3 +24,14 @@
 - [ ] Optional Obsidian and Notion integration; Markdown remains canonical
 
 Static tests do not demonstrate successful AI persona execution.
+
+## M2 — Adaptive meeting facilitation refinement
+- [x] Automatic Consulta vs Deliberação guidance in Secretary-General and council-session
+- [x] Initial perspectives, selective cross-challenges, replies and optional revisions
+- [x] Recommendation only after confrontation in Deliberação; no forced consensus
+- [x] Regression scenarios for autonomous high-stakes meeting and brief consultation
+- [ ] Human-run regression of Scenario D **without procedural prompt instructions**
+- [ ] Human-run short Consulta and explicit-brevity cases
+- [ ] Consider further adjustments after observing actual model output
+
+Completion of documentation and static CI is not evidence that the runtime chose the mode reliably.
