@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Personal Council: NEVER commit personal memories to the public framework
+.private/
+my-council/
+personal-data/
