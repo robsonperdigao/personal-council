@@ -30,7 +30,7 @@ Start with [Getting Started](docs/GETTING_STARTED.md) and [Architecture](ARCHITE
 - [Constitution](constitution.md): principles and safety boundaries.
 - [Secretary-General](agents/secretary-general.md): orchestration contract.
 - [Advisor catalog](advisors/historical/): example historical perspectives.
-- [Skills](.agents/skills/): council-builder, add-advisor, council-session, and memory-manager.
+- [Skills](.agents/skills/): council-builder, advisor-architect, add-advisor, council-session, and memory-manager.
 - [Private workspace templates](templates/private/): user profile, seats and Markdown memory.
 - [Advisor creation guide](docs/ADDING_ADVISORS.md): add, replace or invite advisors.
 
@@ -52,7 +52,7 @@ MIT licensed. Advisors are interpretive tools and are not substitutes for qualif
 
 ## Advisor personalities (M2)
 
-The starter catalog now includes Marcus Aurelius, Peter Drucker and Daniel Kahneman, each with an explicit reasoning method, communication style, characteristic objections and **clearly simulated** examples. See [advisor design](docs/ADVISOR_DESIGN.md).
+The starter catalog now includes Marcus Aurelius, Peter Drucker, Daniel Kahneman and Nicolau Maquiavel, each with an explicit reasoning method, communication style, characteristic objections and **clearly simulated** examples. See [advisor design](docs/ADVISOR_DESIGN.md).
 
 Use the **advisor-architect** Skill to draft and check a distinct personality, then **add-advisor** to place it in a seat. For behavioral testing, use [fictional evaluation scenarios](tests/scenarios.md). Profiles are Markdown, not necessarily independent running AI agents.
 
