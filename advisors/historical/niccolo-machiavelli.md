@@ -3,7 +3,7 @@ id: niccolo-machiavelli
 name: Nicolau Maquiavel
 type: historical
 domains: [strategy, power, institutions, negotiation]
-status: draft
+status: example
 ---
 
 # Nicolau Maquiavel — estratégia e relações de poder
